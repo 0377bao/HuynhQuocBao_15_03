@@ -7,6 +7,7 @@
 .app {
     width: 1400px;
     margin: auto;
+    display: flex;
 }
 
 .left {
@@ -41,4 +42,151 @@
 
 .item.setting {
     width: 55px;
+}
+
+.center {
+    width: 920px;
+    padding: 0 40px;
+    padding-top: 45px;
+}
+
+.center-title-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-title-group-name {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.center-title-group-live {
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 1px solid red;
+    color: red;
+}
+
+.center-des {
+    margin-top: 30px;
+    display: flex;
+}
+
+.center-des-item {
+    display: inline-flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: rgb(241, 18, 111);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.center-des-item img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+.center-des-time {
+    display: flex;
+    align-items: center;
+}
+
+.center-des-time-date {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.center-des-time-date-img {
+    padding: 0 5px;
+}
+
+.center-des-time-timing {
+    padding: 0 20px;
+}
+
+.center-imgbig {
+    position: relative;
+    margin-top: 35px;
+}
+
+.center-imgbig-img {
+    width: 100%;
+}
+
+.center-imgbig-mic {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.center-imgbig-stream {
+    display: inline-block;
+    position: absolute;
+    padding: 10px 20px;
+    top: 10px;
+    left: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.center-imgsmall {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-imgsmall-item {
+    position: relative;
+}
+
+.center-imgsmall-item-img {
+    width: 100%;
+}
+
+.center-imgsmall-item-img-mic {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 30px;
+}
+
+.spancenter-imgsmall-item-stream {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 8px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.center-btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.center-btn-img {
+    margin: 0 10px;
+}
+
+.center-btn-end {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 14px;
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 3px;
 }
