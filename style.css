@@ -156,7 +156,7 @@
 .center-imgsmall-item-img-mic {
     position: absolute;
     top: 10px;
-    right: 20px;
+    right: 10px;
     width: 30px;
 }
 
@@ -190,6 +190,7 @@
     color: white;
     font-family: sans-serif;
     border-radius: 3px;
+    margin: 0 10px;
 }
 
 .right {
@@ -197,7 +198,8 @@
 }
 
 .right-top {
-    padding: 0 20px;
+    padding: 0 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .right-top-tile {
@@ -221,7 +223,8 @@
     justify-self: center;
     align-items: center;
     border-radius: 50%;
-    background-color: rgba(179, 81, 12, 0.3);
+    background-color: rgba(239, 149, 86, 0.2);
+    color: orangered;
 }
 
 .right-top-tile-add {
@@ -252,6 +255,7 @@
 .right-top-listuser-item-name {
     font-family: sans-serif;
     margin-left: 10px;
+    font-size: 15px;
 }
 
 .right-top-listuser-item-btn {
@@ -261,4 +265,68 @@
 
 .right-top-listuser-item-btn-img {
     margin-left: 10px;
+}
+
+.right-bottom {
+    padding: 40px 30px;
+}
+
+.right-bottom-title {
+    margin-bottom: 35px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.right-bottom-item {
+    margin-bottom: 30px;
+}
+
+.right-bottom-item-brand {
+    display: flex;
+    align-items: center;
+}
+
+.right-bottom-item-avt {
+    margin-right: 15px;
+}
+
+.right-bottom-item-name {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.right-bottom-item-time {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #888;
+}
+
+.right-bottom-item-chat {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: rgb(244, 240, 240);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.ight-bottom-send {
+    display: flex;
+    align-items: center;
+}
+
+.ight-bottom-send-type {
+    height: 40px;
+    width: 330px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(244, 240, 240);
+    padding: 0 10px;
+}
+
+.ight-bottom-send-img {
+    margin-left: 20px;
 }
