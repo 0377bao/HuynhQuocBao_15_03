@@ -48,6 +48,7 @@
     width: 920px;
     padding: 0 40px;
     padding-top: 45px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .center-title-group {
@@ -189,4 +190,75 @@
     color: white;
     font-family: sans-serif;
     border-radius: 3px;
+}
+
+.right {
+    width: 400px;
+}
+
+.right-top {
+    padding: 0 20px;
+}
+
+.right-top-tile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.right-top-tile-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.right-top-tile-name-number {
+    display: inline-flex;
+    padding: 10px;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    justify-self: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(179, 81, 12, 0.3);
+}
+
+.right-top-tile-add {
+    padding: 8px 15px;
+    border: 1px solid orangered;
+    color: orangered;
+    border-radius: 5px;
+}
+
+.right-top-listuser {
+    margin-top: 30px;
+}
+
+.right-top-listuser-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.right-top-listuser-item-branch {
+    display: flex;
+    align-items: center;
+}
+
+.right-top-listuser-item-img {}
+
+.right-top-listuser-item-name {
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.right-top-listuser-item-btn {
+    display: flex;
+    align-items: center;
+}
+
+.right-top-listuser-item-btn-img {
+    margin-left: 10px;
 }
